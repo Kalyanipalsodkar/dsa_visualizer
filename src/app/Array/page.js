@@ -98,6 +98,7 @@ export default function ArrayPage() {
         <p><strong>Total array size used:</strong> {adt.getLength()}</p>
       </div>
 
+      <AnimatedArray array={arrayState} highlightIndex={searchResult} />
 
       <div className="flex flex-wrap gap-2 mt-8 mb-3">
         <input
@@ -179,7 +180,6 @@ export default function ArrayPage() {
         <p className="text-red-600 text-sm mb-4">{error.message}</p>
       )}
 
-      <AnimatedArray array={arrayState} highlightIndex={searchResult} />
      
     </div>
   );
