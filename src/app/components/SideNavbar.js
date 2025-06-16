@@ -22,7 +22,7 @@ export default function SideNavbar() {
 
   return (
     <div className="p-6 rounded-lg w-1/2 h-screen bg-white z-20 fixed top-0 left-96 lg:left-0 lg:w-60  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
-      <h1 className="text-base text-center cursor-pointer font-bold text-blue-900 border-b border-gray-400 pb-4 w-full text-[25px]">DSA Visualizer</h1>
+      <h1 className="text-base text-center font-bold text-blue-900 border-b border-gray-400 pb-4 w-full text-[25px]">DSA Visualizer</h1>
       <ul className="space-y-4">
         {navItems.map((item, index) => (
           <li
