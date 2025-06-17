@@ -66,6 +66,7 @@ export default function ArrayPage() {
     }
     const index = adt.search(searchValue);
     setSearchResult(index);
+    setSearchValue('');
   };
 
   const handleUpdate = () => {

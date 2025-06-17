@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Graph = () => {
+export default function Graph(){
   return (
-    <div>Graph</div>
+    <div>
+      <h1 className="text-base text-center font-bold text-blue-900 border-b border-gray-400 pb-4 w-full text-[25px]">Graph</h1>
+    </div>
   )
 }
 
-export default Graph
